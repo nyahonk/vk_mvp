@@ -13,6 +13,9 @@ public class Injector {
         App.getAppComponent().inject(loginPresenter);
     }
 
+    public static void inject(NewsFeedActivity activity) {
+        App.getAppComponent().inject(activity);
+    }
     public static void inject(LoginActivity activity) {
         App.getAppComponent().inject(activity);
     }
