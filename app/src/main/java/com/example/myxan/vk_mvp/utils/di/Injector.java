@@ -12,14 +12,12 @@ public class Injector {
     public static void inject(LoginPresenter loginPresenter) {
         App.getAppComponent().inject(loginPresenter);
     }
-
     public static void inject(NewsFeedActivity activity) {
         App.getAppComponent().inject(activity);
     }
     public static void inject(LoginActivity activity) {
         App.getAppComponent().inject(activity);
     }
-
     public static void inject(NewsFeedAdapterHolder activity) {
         App.getAppComponent().inject(activity);
     }
